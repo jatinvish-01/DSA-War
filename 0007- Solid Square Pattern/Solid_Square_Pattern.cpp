@@ -4,7 +4,7 @@ using namespace std;
 void printSquare(int n){
       for(int i = 1; i<=n; i++){
             for(int j = 1; j<=n; j++){
-                cout << "*";
+                cout << "* ";
             }
             cout << endl;
       }
@@ -12,6 +12,7 @@ void printSquare(int n){
 
 int main(){
       int n;
+      // cout << "Enter the numbers of stars you want: ";
       cin >> n;
       printSquare(n);
 }
