@@ -20,3 +20,4 @@ int main(){
       cin >> n;
       printAlphabetTriangle(n);
 }
+
